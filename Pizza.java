@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pizza {
-    List<String> Pizza = new ArrayList<>();    
+    // Criar um metodo para cadastrar uma novo sabor de pizza 
+    List<Integer> Pizza_ingre = new ArrayList<>();
+    List<String> Pizza_calabresa = new ArrayList<>(Arrays.asList("Calabresa","Cebola","Oregano"))   
+    
     public Pizza(){
-        int queijo;
-        int Calabresa;
-        int Catupiry;
-        int bordaRecheada;    
+         
     }
     public void construindo_pizza(){
         
